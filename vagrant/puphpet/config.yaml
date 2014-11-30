@@ -29,7 +29,7 @@ vagrantfile-local:
                     - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
                     - '--parser future'
         synced_folder:
-            dI31eBIcMnz9:
+            Azdtt6OcK0fA:
                 owner: ''
                 group: ''
                 source: ../
@@ -78,7 +78,7 @@ apache:
     modules:
         - rewrite
     vhosts:
-        H4TmA9HM0Qu3:
+        ZETqPKcALco0:
             servername: yii2.local
             docroot: /var/www
             port: '80'
@@ -153,7 +153,7 @@ drush:
 ruby:
     install: '1'
     versions:
-        qQHHhuIFFN1f:
+        1csyD7dCCFQC:
             version: ''
 nodejs:
     install: '0'
@@ -168,14 +168,14 @@ mysql:
     root_password: root
     adminer: '1'
     databases:
-        MOSNDGDJPZI9:
+        kzLMNiWGU5hU:
             grant:
                 - ALL
-            name: yii2
+            name: kentkabana
             host: localhost
-            user: yii2
-            password: yii2
-            sql_file: ''
+            user: kentkabana
+            password: kentkabana
+            sql_file: /var/www/kentkabana.sql
 postgresql:
     install: '0'
     settings:
