@@ -7,6 +7,12 @@ $config = [
             'cookieValidationKey' => '',
         ],
     ],
+    'request' => [
+      'baseUrl' => '',
+    ],
+    'urlManager' => [
+      'baseUrl' => '',
+    ]
 ];
 
 if (!YII_ENV_TEST) {

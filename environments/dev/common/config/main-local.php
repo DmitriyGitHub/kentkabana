@@ -17,7 +17,6 @@ return [
             'useFileTransport' => true,
         ],
         'urlManager' => [
-            'baseUrl' => '',
             'class' => 'yii\web\UrlManager',
             'enablePrettyUrl' => true,
             'showScriptName' => false
